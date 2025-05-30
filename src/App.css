@@ -1,0 +1,144 @@
+body {
+  margin: 10px;
+}
+.invoice {
+  /* margin: 20px; */
+  margin: 30px;
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
+  padding: 10mm;
+  font-size: 12pt;
+  page-break-after: always;
+  border: 1px solid, #000;
+  background-image: url("./back_logo.png");
+  background-size: cover;
+  background-position: center;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+.header {
+  color: #00adef;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  /* font-size: 32px; */
+  margin-top: 0;
+}
+.header img {
+  height: 70px;
+  margin-top: -21px;
+}
+.header h5 {
+  margin-top: -10px;
+}
+.head {
+  color: #000;
+  text-align: center;
+}
+.grid {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 311px;
+  margin: 20px;
+  display: grid;
+  word-spacing: 3px;
+  line-height: 1.8;
+}
+
+.card {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  padding: 0;
+}
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title hr {
+  height: 3px;
+  margin-top: 20px;
+  background-color: #00adef;
+}
+
+.space {
+  margin-top: 30px;
+}
+.grid1 {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 31px;
+  margin: 20px;
+  display: grid;
+  word-spacing: 3px;
+  line-height: 1.8;
+}
+
+.card2 {
+  display: relative;
+  margin-top: 0px;
+  align-items: flex-end;
+  padding: 0;
+}
+.card2 span {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 2px solid #000;
+  padding: 10px;
+}
+
+.total {
+  font-weight: bolder;
+}
+.tdleft {
+  text-align: right;
+}
+.word {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.stamp img {
+  position: absolute;
+  width: 200px;
+  display: relative;
+  margin-left: 30%;
+}
+
+/* download btn */
+.dwn {
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+.download {
+  background-color: #00adef;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  align-content: center;
+}
+
+.download:hover {
+  background: #000;
+}
